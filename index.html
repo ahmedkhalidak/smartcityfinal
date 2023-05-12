@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Cities</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/citystyle.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=League+Spartan:wght@400;500;700&family=Poppins:wght@200;400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,500&family=Ubuntu:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="logo SC white.png">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top ">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo SC white.png" alt="" class="w-25 h-25" style="
+          transform: scale(0.7);" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="main">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#99">goals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#1">Problems</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#3">Solutions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#10">Contact</a>
+          </li>
+        </ul>
+        <div class="search ps-3 pe-3 d-none d-lg-block">
+          <form class="search-form">
+            <input type="text111" placeholder="Search...">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+        </div>
+
+        <button id="myBtn" class="btn rounded-pill main-btn">Login</button>
+        <div id="myModal" class="modal">
+          <!-- start login -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times;</span>
+              <h2 class="login-header">Login here</h2>
+            </div>
+            <div class="modal-body">
+              <label class="label1" for="username">Username</label> <br>
+              <input class="input1" type="text" placeholder="Email or Phone" id="username"> <br>
+              <label class="label1" for="password">Password</label> <br>
+              <input class="input1" type="password" placeholder="Password" id="password"> <br>
+              <button class="loginsignup">Log In</button> <br>
+              <button class="loginsignup  signup "> <a href="indexsignup.html" target="_blank"
+                  style="text-decoration: none !important; color: white;">Sign up</a> </button>
+              <div class="social">
+                <div class="go">
+                  <li class="fab fa-google"></li><a class="go-go"
+                    href="https://accounts.google.com/v3/signin/identifier?dsh=S-972429043%3A1683162908029895&ifkv=Af_xneG14uiCMz3bJFqrJaK58-vDi-3MHHcet7SDTQ4zy5RQANit1fciDBrjKH271FJme7sXra4x&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+                    target="_blank">oogle</a>
+                </div>
+                <div class="fb">
+                  <li class="fab fa-facebook"></li><a class="fb-fb" href="https://www.facebook.com/login.php/"
+                    target="_blank">Facebook</a>
+                </div>
+
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="https://wa.me/+2001005791862?text=        Hello" target="_blank" class="modal4">can't sign
+                in?</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end login -->
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </nav>
+<!-------------------------------------start landing--------------------------------------- -->
+  <div class="landing  ">
+    <div class="bg-image imgcity" style="background-image: url('images/city2.jpg');">
+
+      <div class="container d-flex justify-content-center align-items-center ">
+        <img src="images/final design (1).png" alt="" class="  w-25 m-5 ">
+      </div>
+    </div>
+  </div>
+  <!-------------------------------------end landing--------------------------------------- -->
+  
+  <!-- start feuters -->
+  <div class="feuters">
+    <div class="bg-image" style="background-image: url('images/3.png');">
+      <div class="main ">
+        <div class="img2">
+          <div class="container ">
+            <div class="main-title mb-5 position-relative text-center">
+              <img class=" img3 my-5 w-25  " src="images/pngwing.com.png" alt="" />
+              <h2>Sustainable cities and human settlements</h2>
+              <p class="text-black text-uppercase">smart cities </p>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="ak ">
+                  <div id="slide" class="carousel slide ">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#slide" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#slide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#slide" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner ">
+                      <div class="carousel-item active c-item ">
+                        <img src="images/solar-g733946e67_1920.jpg" class="d-block w-100  c-img " alt="...">
+                      </div>
+                      <div class="carousel-item  c-item">
+                        <img src="images/renewable.jpg" class="d-block w-100 c-img " alt="...">
+                      </div>
+                      <div class="carousel-item  c-item">
+                        <img src="images/windmills-gd28ffbd79_1920.jpg" class="d-block w-100 c-img " alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#slide" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#slide" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg- col-md-6 col-sm-1  ">
+                <p class=" lh-lg text-dark  p-lg-0 p-4 fs-6 ">
+                  Today, the world faces many environmental, economic, and social problems that affect people's lives
+                  and hinder sustainable development. Among these issues, cities play a major role in facing many
+                  challenges, such as traffic congestion, air and water pollution, waste accumulation, energy and
+                  natural resource shortages.
+
+                  Hence, the idea of sustainable cities came as a comprehensive solution to overcome these problems,
+                  aiming to create safe, healthy, and sustainable human communities environmentally, socially, and
+                  economically. This promotes human life in line with the sustainability of natural resources.
+
+                  Thus, sustainable cities are based on sustainability principles and adopt a comprehensive approach
+                  that includes economic, social, and environmental aspects. The three factors are considered in a
+                  single framework, and decisions are made according to this comprehensive<center
+                    style="margin-top: -12px;">concept.</center>
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-----------------------------------end feuters---------------------------------------------->
+  
+  <!----------------------------------start goals--------------------------------------------->
+  <div class="goals d-flex justify-content-center align-items-center">
+    <div class="page1" id="99">
+      <div> <img class="imgg img-fluid " src="images/goallll.png" alt="..."></div>
+    </div>
+  </div>
+  <!-------------------------------- end goals---------------------------------------------->
+
+
+  <!------------------------------start definition------------------------------------------>
+  <div class=" definition ">
+    <div class="bg-image imgcity" style="background-image: url('images/9.jpg');">
+      <div class="container">
+        <h1 class="title-page2 text-center p-5 w-100 text-white-50"> What Is a Sustainable<span class="word">
+            City?</span></h1>
+        <p class="p-page2 lh-lg p-4 text-start text-light p-3 fs-6  ">A sustainable city is an urban center engineered
+          to improve its environmental impact through urban planning and management. For an eco city definition, picture
+          cities with parks and green spaces, solar-powered buildings, rooftop gardens and more pedestrians and cyclists
+          than cars. This is not a futuristic dream. Smart cities are actively moving towardgreener urban ecosystems and
+          better environmental stewardship Green technology is a key factor that is helping to foster more sustainable
+          urban development. It comprises all aspects of city planning, including transportation, infrastructure,
+          telecommunications and energy. Green tech also supports green living practices, including recycling and use of
+          energy and renewable resources in homes and offices. Sensors, gateways, embedded radios and cellular routers
+          are at the heart of many sustainable city infrastructure and green building systems. See our video introducing
+          the green tech landscape.</p>
+      </div>
+    </div>
+  </div>
+  <!------------------------------end definition-------------------------------------------->
+
+  <!------------------------------5 png----------------------------------------------------->
+<div class="png ">
+    <div class="container">
+      <div class="row ">
+        <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+          <img class="img w-25  " src="images/recycling.png" alt="" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+          <img class="img w-25" src="images/replant.png" alt="" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+          <img class="img w-25" src="images/save-the-planet.png" alt="" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+          <img class="img w-25" src="images/sustainable (2).png" alt="" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+          <img class="img w-25" src="images/sustainable (3).png" alt="" />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+          <img class="img w-25" src="images/green-energy.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-----------------------------end 5png--------------------------------------------------->
+
+  <!---------------------------problems start----------------------------------------------->
+  <div class="problems h-100 w-100 ">
+    <div class="container-fluid">
+      <div class="main-title mb-5 position-relative text-center">
+        <img class=" mt-3" src="images/akk.png" alt="" />
+        <h2>Problems and challenges</h2>
+        <p class="text-black text-uppercase">smart cities </p>
+      </div>
+      <div class="row ">
+        <div class="col-lg-7 lh-lg ">
+          <div class="card3" id="77">
+            <div class="card-body">
+              <p class="card-text">
+              <ul class="text-dark ">
+                <li>
+                  Population growth: Increasing population leads to increased demand for natural resources, energy,
+                  water, and food, putting pressure on the ecological system and leading to resource depletion
+                </li>
+                <li>
+                  Industrialization and economic development: Industrial growth and economic development result in
+                  increased use of natural resources and harmful emissions, leading to pollution and negative impacts on
+                  health and the environment
+                </li>
+                <li>
+                  Overconsumption: Excessive consumption of resources and energy leads to degradation of the ecosystem
+                  and increased harmful emissions, affecting public health, the environment, and the economy
+                </li>
+                <li>
+                  Climate change: Climate change is a result of accumulated emissions of greenhouse gases, and it
+                  affects the environment, economic and social systems, resulting in rising temperatures, extreme
+                  weather events, and sea level rise
+                </li>
+                <li>
+                  Poverty and inequality: Poverty and inequality in the distribution of resources, economic
+                  opportunities, and education exacerbate environmental, social, and health problems, affecting quality
+                  of life and sustainable development
+                </li>
+                <li>
+                  Lack of environmental awareness: Lack of environmental awareness and education about the environmental
+                  impact of human activities results in inadequate decision-making to protect the environment and reduce
+                  pollution and climate change, leading to worsening environmental, social, and health problems
+                </li>
+                <li>
+                  Ineffective environmental policies: The lack of effective environmental policies results in the
+                  absence of a clear and binding legal framework for environmental protection,pollution reduction, and
+                  natural resource conservation, leading to worsening environmental, social, and health problems
+                </li>
+                <li>
+                  Neglecting sustainable development: Focusing on economic development and rapid growth without
+                  considering sustainable development leads to depletion of natural resources, environmental
+                  degradation, and worsening environmental, social, and health problems
+                </li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 mt-5 p-5  ">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <h3 class="m" style="padding-left: -1000px;" id="1">resources:</h3>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/pol.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/pol2.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/pol3.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <img src="images/prop2.jpg" class="img-fluid mt-3 rounded-3 ">
+          <img src="images/prop.jpg" class="img-fluid mt-3 rounded-3">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- problems end -->
+
+  <!-- start cards of sol -->
+  <div class="sol justify-content-center align-items-center text-center    " id="3">
+    <div class="bg-image" style="background-image: url('images/6.png');">
+      <div class="container">
+        <h3 class="text-uppercase p-5 ">There are many innovative solutions that can be adopted to achieve sustainable
+          cities, including</h3>
+        <div class="row m-5">
+          <div class="col-lg-4 col-md-6 col-sm-1">
+            <div class="card">
+              <img src="images/tesla.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-content">
+                <h5 class="card-title">ELECTRIC PUBLIC TRANSPORTATION</h5>
+
+                <a href="#4" class="btn btn-primary">SOULTION</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-1">
+            <div class="card ">
+              <img src="images/renewable.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-content">
+                <h5 class="card-title">RENEWABLE ENERGY</h5>
+
+                <a href="#5" class="btn btn-primary">SOULTION</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-1">
+            <div class="card ">
+              <img src="images/R.jpeg" class="card-img-top img-fluid" alt="...">
+              <div class="card-content">
+                <h5 class="card-title">GREEN BULDING</h5>
+                <a href="#6" class="btn btn-primary">SOULTION</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-1">
+            <div class="card ">
+              <img src="images/Recycling.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-content">
+                <h5 class="card-title">WASTE MANAGMENT</h5>
+                <a href="#7" class="btn btn-primary">SOULTION</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-1">
+            <div class="card ">
+              <img src="images/uraban planning.jpeg" class="card-img-top img-fluid" alt="...">
+              <div class="card-content">
+                <h5 class="card-title">URBAN planning</h5>
+                <a href="#8" class="btn btn-primary">SOULTION</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-1">
+            <div class="card ">
+              <img src="images/Urban agriculture.jpeg" class="card-img-top img-fluid" alt="...">
+              <div class="card-content">
+                <h5 class="card-title">URBAN AGRICULTURE </h5>
+
+                <a href="#9" class="btn btn-primary">SOULTION</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end cards -->
+  <!-- start solutions -->
+  <div class="soultion justify-content-center align-items-center text-center">
+    <div class="card1 bg-image-fluid">
+      <div class="container ">
+        <h5 class="card-header" id="4">ELECTRIC PUBLIC TRANSPORTATION</h5>
+        <div class="card-body">
+          <p class="card-text text-start">Electric public transportation refers to a system of mass transit that uses
+            electric-powered vehicles to transport passengers. This can include electric buses, trains, and trams, among
+            others.
+
+            Electric public transportation is becoming increasingly popular as cities around the world seek to reduce
+            their carbon footprint and promote sustainability. Electric vehicles produce zero emissions at the tailpipe,
+            which makes them an attractive option for environmentally-conscious cities.
+
+            In addition to being better for the environment, electric public transportation can also be more
+            cost-effective than traditional diesel or gasoline-powered vehicles in the long run. Although electric
+            vehicles may have a higher upfront cost, they often have lower operating and maintenance costs over their
+            lifetime.
+
+            Overall, electric public transportation has the potential to improve the quality of life in urban areas by
+            reducing air pollution, traffic congestion, and noise pollution. It also provides a more sustainable way for
+            people to travel around cities, making them more livable and enjoyable <center>for everyone</center>
+          </p>
+        </div>
+      </div>
+      <div class="card2 bg-image-fluid" id="5">
+        <div class="container ">
+          <h5 class="card-header">RENEWABLE ENERGY</h5>
+          <div class="card-body ">
+            <p class="card-text text-start">Renewable energy refers to energy that is derived from sources that are
+              naturally replenished and can be used indefinitely without depleting the Earth's resources. These sources
+              include sunlight, wind, water (such as hydropower and tidal power), geothermal heat, and bioenergy (such
+              as biofuels and biomethane).
+
+              Renewable energy has gained significant attention in recent years due to its potential to mitigate climate
+              change, reduce greenhouse gas emissions, and provide sustainable and clean alternatives to traditional
+              fossil fuels. There are several key benefits associated with renewable energy:
+
+              Environmental sustainability: Renewable energy sources do not produce harmful emissions or contribute to
+              air pollution, water pollution, or climate change. They do not deplete natural resources and have minimal
+              impact on ecosystems, making them a more environmentally sustainable option compared to fossil fuels.
+
+              Energy security and independence: Renewable energy sources are widely distributed and available in many
+              parts of the world, reducing dependence on fossil fuel imports and increasing energy security. This can
+              help countries achieve greater energy independence and reduce their vulnerability to geopolitical tensions
+              or supply disruptions.
+
+              Economic opportunities: Renewable energy technologies create jobs and stimulate economic growth in various
+              sectors, including manufacturing, installation, operation, and maintenance. The renewable energy industry
+              has become a significant economic driver, providing opportunities for innovation, entrepreneurship, and
+              investment.
+
+              Public health benefits: Renewable energy sources do not emit harmful pollutants that can negatively impact
+              human health, such as particulate matter, sulfur dioxide, and nitrogen oxides. Switching to renewable
+              energy can help improve air and water quality, reduce respiratory illnesses, and protect public health.
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <div class="card3 bg-image-fluid">
+        <div class="container ">
+          <h5 class="card-header" id="6">GREEN BULDING</h5>
+          <div class="card-body ">
+            <p class="card-text text-start">Green building is a term that refers to sustainable construction practices
+              aimed at achieving efficiency in the use of energy, water, materials, and other resources in building and
+              construction. This is usually done through the use of designs, materials, and technologies that help
+              reduce the building's impact on the environment, increase energy efficiency, improve indoor air quality,
+              and reduce waste.
+
+              Some common practices of green building include using renewable and high-quality materials and smart
+              designs to achieve energy efficiency and enhance natural lighting, ventilation, cooling, and heating.
+              Green building also involves using renewable energy technologies such as solar panels, concentrated solar
+              power, wind power, and geothermal energy technology.
+
+              The key benefits of green building include overall cost savings for the building, reducing energy and
+              water consumption, waste generation, and harmful emissions, and improving the environmental and
+              psychological health of the building's occupants. In addition, green buildings can obtain certified green
+              design certificates to achieve recognition for environmental quality and sustainability.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="card4 bg-image-fluid">
+        <div class="container ">
+          <h5 class="card-header" id="7">WASTE MANAGMENT</h5>
+          <div class="card-body ">
+            <p class="card-text text-start">Waste management refers to the collection, transportation, processing, and
+              disposal of waste materials. Proper waste management is important to minimize negative impacts on the
+              environment and public health. The goal of waste management is to reduce the amount of waste produced,
+              recover materials that can be recycled or reused, and dispose of the remaining waste in a safe and
+              environmentally-friendly manner.
+
+              There are several methods for waste management, including landfill disposal, incineration, and recycling.
+              Landfill disposal involves burying waste in designated areas, while incineration involves burning waste to
+              generate energy. Recycling involves the recovery of materials from waste, such as paper, plastics, and
+              metals, which can be used to create new products.
+
+              Effective waste management practices can help reduce pollution, conserve natural resources, and minimize
+              greenhouse gas emissions. It can also create job opportunities and generate revenue through the sale of
+              recycled materials. However, waste management can be challenging, and requires a collaborative effort from
+              individuals, businesses, and governments to implement effective strategies and reduce the amount of waste
+              produced.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="card5 bg-image-fluid">
+        <div class="container ">
+          <h5 class="card-header" id="8">URBAN planning</h5>
+          <div class="card-body m-4">
+            <p class="card-text text-start">Urban planning is the process of developing plans and strategies to organize
+              and design cities and urban areas with the aim of improving the quality of life for residents and
+              providing a sustainable and healthy environment for living and working. The process of urban planning
+              includes many stages, including data and information analysis, evaluating population and environmental
+              needs, designing the city's infrastructure, including roads, bridges, transportation networks, and public
+              facilities, and identifying future goals and strategies for urban development.
+
+              The main factors affecting urban planning include changes in population growth, urban expansion, economic,
+              social, cultural, and technological development. The urban planning process aims to reduce social,
+              economic, and environmental disparities in cities, increase economic opportunities and sustainable
+              development, and provide green spaces, recreational, and cultural areas for residents.
+
+              Good urban planning practices include providing effective and sustainable public transportation,
+              alternative housing, designated areas for commercial, industrial, and service projects, and developing
+              sustainable and innovative urban areas using modern technology and sustainable materials.</p>
+
+          </div>
+        </div>
+        <div class="card6 bg-image-fluid">
+          <div class="container ">
+            <h5 class="card-header" id="9">URBAN AGRICULTURE</h5>
+            <div class="card-body ">
+              <p class="card-text text-start">Urban agriculture is the practice of growing and cultivating crops and
+                raising animals within urban areas or on the outskirts of cities. It involves the use of small plots of
+                land, such as community gardens or rooftop farms, to produce food for local consumption. Urban
+                agriculture can provide numerous benefits, including increased access to fresh produce, improved food
+                security, and the promotion of sustainable and locally sourced food systems.
+
+                In addition to providing fresh produce, urban agriculture can also have social and environmental
+                benefits. It can serve as a community-building activity, bringing people together to work towards a
+                common goal. It can also reduce the carbon footprint of food production by reducing the transportation
+                needed to bring food from rural areas to urban centers. Additionally, urban agriculture can contribute
+                to the reduction of food waste by repurposing unused land or by growing crops that are not typically
+                sold commercially.
+
+                While urban agriculture has many benefits, it also faces numerous challenges, including the limited
+                availability of suitable land, high land prices, and potential contamination of soil in urban areas.
+                However, with proper planning and management, urban agriculture can be an effective way to improve food
+                security, promote sustainable food systems, and create vibrant communities.</p>
+
+              <div class="clickme">
+                <a class="button" href="formore.html" target="_blank">For
+                  more!</a>
+              </div>
+              <svg style="visibility: hidden; position: absolute;" width="0" height="0"
+                xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <defs>
+                  <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                      result="goo" />
+                    <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+                  </filter>
+                </defs>
+              </svg>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end solution  -->
+
+  <div class="donate text-center pt-5 pb-5 ">
+    <div class="container">
+      <h2 class="">Donate now</h2>
+    <p class="text-black-50">"Join us in fostering sustainable development for communities through donation and be a part of the positive change we strive for in improving lives and achieving sustainable community development."</p>
+    <div class="d-flex justify-content-center mt-5 mb-5">
+      <a class="btn rounded-pill main-btn text-uppercase" href="donate.html" target="_blank">Donate</a>
+    </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <div class="footer pt-5 pb-5 text-white-50 text-center text-md-start" id="10">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="info mb-5">
+            <img src="imgs/logo.png" alt="" class="mb-4" />
+            <p class="mb-5">
+
+            </p>
+            <div class="copyright">
+              Created By: <span>TEAM 2</span>
+              <div>&copy; 2023 - <span>SMART CITIES</span></div>
+            </div>
+          </div>
+          <div class="team2">
+            <h4><i class="fa-solid fa-people-group"></i> Team Members</h4>
+            <ul>
+              <li> ahmed khalid</li>
+              <li> Anes cheriet</li>
+              <li>abdoo</li>
+              <li>abdulrahman</li>
+              <li>youssef</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2">
+          <div class="links">
+            <h5 class="text-light">Links</h5>
+            <ul class="list-unstyled lh-lg">
+              <li> <a class="links" href="https://www.facebook.com/profile.php?id=100058059766342" target="_blank">Home
+              </li> </a>
+              <li> <a class="links" href="https://www.facebook.com/profile.php?id=100058059766342" target="_blank">Our
+                  Services</li> </a>
+              <li> <a class="links" href="https://www.facebook.com/profile.php?id=100058059766342"
+                  target="_blank">Portfolio</li> </a>
+              <li> <a class="links" href="https://www.facebook.com/profile.php?id=100058059766342"
+                  target="_blank">Testimonials</li> </a>
+              <li> <a class="links" href="https://www.facebook.com/profile.php?id=100058059766342"
+                  target="_blank">Support</li> </a>
+              <li> <a class="links" href="https://www.facebook.com/profile.php?id=100058059766342" target="_blank">Terms
+                  and Condition</li> </a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2">
+          <div class="links">
+            <h5 class="text-light">About Us</h5>
+            <ul class="list-unstyled lh-lg">
+              <li> <a class="links" href="https://www.facebook.com/profile.php?id=100058059766342" target="_blank">Sign
+                  In</li> </a>
+              <li> <a class="links" href="https://www.facebook.com/profile.php?id=100058059766342"
+                  target="_blank">Register</li> </a>
+              <li> <a class="links" href="https://www.facebook.com/profile.php?id=100058059766342" target="_blank">About
+                  Us</li> </a>
+              <li> <a class="links" href="https://www.facebook.com/profile.php?id=100058059766342" target="_blank">Blog
+              </li> </a>
+              <li> <a class="links" href="https://www.facebook.com/profile.php?id=100058059766342"
+                  target="_blank">Contact Us</li> </a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="contact">
+            <h5 class="text-light">Contact Us</h5>
+            <p class="lh-lg mt-3 mb-5">Get in touch with us via mail phone.We are waiting for your call or message</p>
+            <a class="btn rounded-pill main-btn w-100" href="mailto:ahmedkhalidfci@gmail.com" target="_blank"
+              style="color: #ffc400">Contact@SMARTCITIES.COM</a>
+            <ul class="d-flex mt-5 list-unstyled gap-3">
+              <li>
+                <a class="d-block text-light" href="https://www.facebook.com/profile.php?id=100058059766342"
+                  target="_blank"><i class="fa-brands fa-facebook fa-lg facebook rounded-circle p-2"></i></a>
+              </li>
+              <li>
+                <a class="d-block text-light" href="https://twitter.com/abdo_7bk" target="_blank"><i
+                    class="fa-brands fa-twitter fa-lg twitter rounded-circle p-2"></i></a>
+              </li>
+              <li>
+                <a class="d-block text-light" href="https://www.instagram.com/abd_elrahman_shaban.24/"
+                  target="_blank"><i class="fa-brands fa-instagram fa-lg instagram rounded-circle p-2"></i></a>
+              </li>
+              <li>
+                <a class="d-block text-light" href="https://wa.me/+2001005791862?text=        Hello" target="_blank"><i
+                    class="fa-brands fa-whatsapp fa-lg whatsapp rounded-circle p-2"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end footer -->
+
+   <!-- arrow -->
+  <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+      <script>addBackToTop({
+        diameter: 56,
+        backgroundColor: 'black;',
+        textColor: '#fff'
+      })
+  </script>
+
+  <!-- bootstrap -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+</body>
+</html>
